@@ -1,0 +1,239 @@
+{
+  "header": {
+    "links": {
+      "cars": "Cars",
+      "offers": "Offers",
+      "partners": "Partners",
+      "about": "About"
+    }
+  },
+  "footer": {
+    "aboutUs": "About us",
+    "privacy": "Privacy"
+  },
+  "errors": {
+    "sorry": "Sorry!",
+    "somethingWrong": "Something wrong!",
+    "tryAgain": "Something was going wrong, please try again later.",
+    "dateRequired": "Date and time is required",
+    "emailExist": "Email already used"
+  },
+  "modals": {
+    "closeTitle": "Close",
+    "closeWithoutSaving": "Are you sure that you wat to close without saving?",
+    "askProposal": "Ask a proposal"
+  },
+  "titles": {
+    "contact": "Contact info",
+    "checkout": "Checkout",
+    "totalPrice": "Total price"
+  },
+  "forms": {
+    "company": "Company",
+    "companyRegistrationNo": "Company registration number",
+    "firstName": "Your first name",
+    "lastName": "Your last name",
+    "yourEmail": "Your email",
+    "yourPhone": "Your phone",
+    "password": "Password",
+    "passwordRepeat": "Repeat password",
+    "message": "Message",
+    "yourSocialIdNumber": "Your social ID number",
+    "gdpr": "GDPR",
+    "country": "Country",
+    "city": "City",
+    "regionCode": "Region",
+    "address": "Address",
+    "zip": "Postal Code"
+  },
+  "buttons": {
+    "add": "Add",
+    "back": "Back",
+    "cancel": "Cancel",
+    "next": "Next",
+    "close": "Close",
+    "confirm": "Confirm",
+    "change": "Change",
+    "backToFilters": "Back to filters",
+    "showAvailableCars": "Show {{total}} available cars",
+    "buy": "Buy",
+    "buyNow": "Buy now",
+    "book": "Book",
+    "bookTestDrive": "Book a test drive",
+    "offer": "Offer",
+    "askForOffer": "Ask for an offer",
+    "reset": "Reset",
+    "vehicleDetails": "Click to see vehicle details",
+    "validateNumber": "Check",
+    "resetFilters": "Reset filters",
+    "finishCheckout": "Finish Checkout",
+    "showTotal": "Show {{total}} matches",
+    "register": "Registration",
+    "login": "Login",
+    "logout": "Logout",
+    "exitButton": {
+      "exit": "Exit",
+      "checkout": "checkout"
+    }
+  },
+  "filters": {
+    "filter": "Filter",
+    "matches": "matches",
+    "seeAll": "See all",
+    "seeMatches": "See matches",
+    "resetFilters": "Reset filters",
+    "pleaseAdd": "Please add a filter",
+    "type": {
+      "sortBy": "Sort by",
+      "condition": "Condition",
+      "availability": "Availability",
+      "make": "Make",
+      "model": "Model",
+      "bodyType": "Body type",
+      "mileage": "Mileage",
+      "gearbox": {
+        "title": "Gearbox",
+        "manual": "Manual",
+        "automatic": "Automatic"
+      },
+      "fuelType": "Fuel type",
+      "priceLimit": "Price limit",
+      "equipments": "Equipments"
+    },
+    "sorting": {
+      "asc(make)": "Make (A-Z)",
+      "desc(make)": "Make (Z-A)",
+      "asc(price)": "Price (Low to Hight)",
+      "desc(price)": "Price (Hight to Low)"
+    }
+  },
+  "indexPage": {
+    "title": "Find your car. Easily.",
+    "subTitle": "{{new}} brand new or {{demo}} demo models available immediately from warehouse sold by certified dealers",
+    "search": {
+      "byMake": "Search by make",
+      "byBodyType": "Search by body type",
+      "byPrice": "Search by price"
+    }
+  },
+  "carPage": {
+    "specifications": {
+      "mileage": "Mileage",
+      "year": "Year",
+      "engine": "Engine",
+      "gearbox": "Gearbox"
+    },
+    "factoryOptions": {
+      "title": "Included factory options"
+    },
+    "status": {
+      "booked": "Booked",
+      "inStock": "In Stock",
+      "arriveIn": "Arriving • in",
+      "arriving": "Arriving"
+    }
+  },
+  "carStatus": {
+    "booked": "Booked",
+    "sold": "Sold"
+  },
+  "financing": {
+    "privatePerson": "Private person",
+    "company": "Company",
+    "configuration": "Please define valid configuration",
+    "price": "Price ",
+    "eurMonth": "eur/month",
+    "title": "Lease payment",
+    "leasingOptions": "Leasing options",
+    "perMonth": "per month",
+    "months": "months",
+    "titleCalculation": "Lease payment calculation settings",
+    "deposit": "Deposit",
+    "period": "Period",
+    "interest": "Interest",
+    "downpayment": "Downpayment",
+    "residualValue": "Residual value",
+    "disclaimer": "This is a disclaimer that says things about this calculator not being the source of universal truth",
+    "offerInfo": "The offer is indicative only. The calculations may different depending on the vehicle selected and the customer's insurance history."
+  },
+  "buyCarView": {
+    "titles": {
+      "extras": "Extras & Services",
+      "delivery": "Delivery",
+      "tradeIn": "Trade In",
+      "financing": "Financing",
+      "auth": "Log in or register",
+      "contactInfo": "Buyer info",
+      "summary": "Summary",
+      "reservation": "Reservation"
+    },
+    "forms": {
+      "registrationNumber": "Reg. number",
+      "suggestedPrice": "Expected price"
+    },
+    "delivery": {
+      "optionDealer": "Pick up from the dealer",
+      "optionDelivery": "Delivery to my address",
+      "dealerField": "Dealer",
+      "free": "- Free",
+      "tax": "- From 250€"
+    },
+    "tradeIn": {
+      "no": "don't have vehicle for trade",
+      "yes": "add an existing vehicle for trade in"
+    },
+    "reservation": {
+      "description1": "In order to reserve the car a deposit of € {{price}} is needed.",
+      "description2": "Please choose a suitable payment option.",
+      "optionYes": "Pay {{fee}} EUR and reserve this car",
+      "optionNo": "Don't reserve, ask the dealer to contact me"
+    },
+    "success": {
+      "title": "Thank you!",
+      "subtitle": "Your order is now being processed.",
+      "description1": "One processed you will recieve e-mail confirmation with all the details about your order.",
+      "description2": "In case there is additional questions, you will be contacted.",
+      "description3": "You can safely close the window."
+    },
+    "totalPrice": "Total cost for buyout is ",
+    "shippingCost": "Shipping cost",
+    "approx": "Approx",
+    "basePrice": "Base price",
+    "info": "The offer is indicative only. The calculations may different depending on the vehicle selected and the customer's insurance history."
+  },
+  "bookTestDriveView": {
+    "title": {
+      "vehicleStep": "Choose a test drive vehicle",
+      "timeSlot": "Free time slots",
+      "contactInfo": "Contact",
+      "success": "Test drive booked!",
+      "formSent": "Request sent"
+    },
+    "carLocation": "Car location",
+    "contactInformationMessage": "Please leave you contact information and we will contact you soon.",
+    "waitingMessage": "We are waiting to you at"
+  },
+  "auth": {
+    "new": "I am new customer",
+    "registered": "I am registered customer"
+  },
+  "notifications": {
+    "noMoreCars": "No more cars to load",
+    "noCarsToShow": "No cars to show",
+    "noAvailableSlots": "For this car doesn't have available slots",
+    "noAvailableSlotsAtDay": "Doesn't have available slots at this day",
+    "timeNotSelected": "Time is not selected",
+    "thankYou": "Thank you!",
+    "proposalSent": "Your request was sent.",
+    "carNotFound": "Car {{id}} is not found",
+    "paidSuccess": "The car has been successfully paid",
+    "paidError": "Something went wrong during pay process",
+    "authLogoutRequired": "Before register new user your need to log-out!",
+    "recaptchaInvalid": "reCAPTCHA is not valid"
+  },
+  "date": "Date & time",
+  "year": "Year",
+  "yes": "Yes",
+  "no": "No",
+  "Next": "Next"
+}

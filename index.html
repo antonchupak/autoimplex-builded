@@ -1,0 +1,115 @@
+<!doctype html><html lang="en"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width,user-scalable=no,initial-scale=1,maximum-scale=1,minimum-scale=1"/><meta http-equiv="X-UA-Compatible" content="ie=edge"/><title>Neocar Widget | Test page</title><link rel="preconnect" href="https://fonts.googleapis.com"/><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/><link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300;400;700&display=swap" rel="stylesheet"/><style>html,
+      body {
+        min-height: 100vh;
+      }
+
+      body {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        margin: 0;
+        background-color: #edeef4;
+      }
+
+      header,
+      footer {
+        height: 50px;
+        line-height: 50px;
+        background-color: #001e3c;
+        color: #fff;
+        text-align: center;
+        font-family: sans-serif;
+        font-weight: bold;
+      }
+
+      footer {
+        margin-top: 32px;
+      }
+
+      #neocar-widget {
+        flex: 1 1 auto;
+      }
+
+      /* Rewrite styles */
+      .NeoCarApp-Stepper-Step {
+        width: 28px;
+        height: 28px;
+        border-radius: 0;
+        border: 1px solid #DE272D;
+        color: #DE272D;
+      }
+
+      .NeoCarApp-Stepper-Step--active,
+      .NeoCarApp-Stepper-Step--done {
+        background-color: #DE272D;
+        color: #FFFFFF;
+        border-color: #DE272D;
+      }
+
+      .NeoCarApp-Modal-Container-Header {
+        padding-bottom: 8px;
+        margin-bottom: 16px;
+        border-bottom: 1px solid #CAD0D1;
+      }
+
+      .NeoCarApp-CarBox-Title {
+        margin-bottom: 12px;
+        border-bottom: 1px solid #CAD0D1;
+      }
+
+      .NeoCarApp-Equipment-Title {
+        margin-bottom: 12px;
+        padding: 4px 12px;
+        background-color: #F5F7F9;
+      }
+
+      .NeoCarApp-Equipment-Icon {
+        color: #DE272D;
+        opacity: 1 !important;
+      }
+
+      .NeoCarApp-Equipment-Item {
+        line-height: 2;
+      }
+
+      .DayPicker-Day--selected {
+        border-radius: 0 !important;
+      }</style><script src="bundle.js"></script></head><body><header>Header</header><div id="neocar-widget"></div><footer>Footer</footer><script>NeocarWidgets.main({
+        container: document.getElementById('neocar-widget'),
+        api: 'http://neocar.demo.modera.org/',
+        lang: 'en', // 'en' or 'et' supported,
+        theme: {
+          palette: {
+            primary: {
+              main: '#DE272D',
+            },
+            secondary: {
+              main: '#CAD0D1',
+            },
+          },
+          typography: {
+            fontFamily: ['Yanone Kaffeesatz', 'sans-serif'].join(','),
+          },
+          components: {
+            MuiButton: {
+              styleOverrides: {
+                root: {
+                  borderRadius: 0,
+                  textTransform: 'none',
+                },
+                contained: {
+                  color: 'white',
+                },
+              },
+            },
+            MuiChip: {
+              styleOverrides: {
+                root: {
+                  height: 36.5,
+                  borderRadius: 0,
+                },
+              },
+            },
+          },
+        },
+      });</script></body></html>

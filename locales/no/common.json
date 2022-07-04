@@ -1,0 +1,230 @@
+{
+  "header": {
+    "links": {
+      "cars": "Biler",
+      "offers": "Tilbud",
+      "partners": "Partnere",
+      "about": "Om"
+    }
+  },
+  "footer": {
+    "aboutUs": "Om oss us",
+    "privacy": "Personvern"
+  },
+  "errors": {
+    "sorry": "Unnskyld!",
+    "somethingWrong": "Noe galt!",
+    "tryAgain": "Noe gikk galt, prøv igjen senere.",
+    "dateRequired": "Dato og klokkeslett kreves",
+    "emailExist": "E-post er allerede brukt"
+  },
+  "modals": {
+    "closeTitle": "Lukk",
+    "closeWithoutSaving": "Er du sikker på at du må lukke uten å lagre?",
+    "askProposal": "Spør et forslag"
+  },
+  "titles": {
+    "contact": "Kontaktinfo",
+    "checkout": "Kasse",
+    "totalPrice": "Totalpris"
+  },
+  "forms": {
+    "company": "Selskap",
+    "companyRegistrationNo": "Bedriftsregistreringsnummer",
+    "firstName": "Ditt fornavn",
+    "lastName": "Ditt etternavn",
+    "yourEmail": "Din e-post",
+    "yourPhone": "Din telefon",
+    "password": "Passord",
+    "passwordRepeat": "Gjenta passord",
+    "message": "Melding",
+    "yourSocialIdNumber": "Ditt sosiale ID-nummer",
+    "gdpr": "GDPR",
+    "country": "Country",
+    "city": "City",
+    "regionCode": "Region",
+    "address": "Address",
+    "zip": "Postal Code"
+  },
+  "buttons": {
+    "add": "Legg til",
+    "back": "Tilbake",
+    "cancel": "Avbryt",
+    "next": "Neste",
+    "close": "Lukk",
+    "confirm": "Bekreft",
+    "change": "Endre",
+    "backToFilters": "Tilbake til filtre",
+    "showAvailableCars": "Vis {{total}} tilgjengelige biler",
+    "buy": "Kjøp",
+    "buyNow": "Kjøp nå",
+    "book": "Bok",
+    "bookTestDrive": "Bestill en prøvetur",
+    "offer": "Tilbud",
+    "askForOffer": "Be om et tilbud",
+    "reset": "Tilbakestill",
+    "vehicleDetails": "Klikk for å se kjøretøydetaljer",
+    "validateNumber": "Valider nummer",
+    "resetFilters": "Tilbakestill filtre",
+    "finishCheckout": "Fullfør utsjekking",
+    "showTotal": "Vis {{total}} treff",
+    "register": "Registrering",
+    "login": "Logg på",
+    "logout": "Logg ut",
+    "exitButton": {
+      "exit": "Avslutt",
+      "checkout": "checkout"
+    }
+  },
+  "filters": {
+    "filter": "Filter",
+    "matches": "matches",
+    "seeAll": "Se alle",
+    "seeMatches": "Se treff",
+    "resetFilters": "Tilbakestill filtre",
+    "pleaseAdd": "Vennligst legg til et filter",
+    "type": {
+      "sortBy": "Sorter etter",
+      "condition": "Tilstand",
+      "make": "Lag",
+      "model": "Modell",
+      "bodyType": "Kroppstype",
+      "mileage": "Kilometerstand",
+      "gearbox": {
+        "title": "Girkasse",
+        "manual": "Manuell",
+        "automatic": "Automatisk"
+      },
+      "fuelType": "Brennstofftype",
+      "priceLimit": "Prisgrense",
+      "equipments": "Utstyr"
+    },
+    "sorting": {
+      "asc(make)": "Lag (AZ)",
+      "desc(make)": "Lag (ZA)",
+      "asc(price)": "Pris (lav til høy)",
+      "desc(price)": "Pris (høy til lav)"
+    }
+  },
+  "indexPage": {
+    "title": "Finn bilen din. Enkelt.",
+    "subTitle": "{{new}} splitter nye eller {{demo}} demomodeller tilgjengelig umiddelbart fra lageret solgt av sertifiserte forhandlere",
+    "search": {
+      "byMake": "Søk etter merke",
+      "byBodyType": "Søk etter kroppstype",
+      "byPrice": "Søk etter pris"
+    }
+  },
+  "carPage": {
+    "specifications": {
+      "mileage": "Kilometerstand",
+      "year": "År",
+      "engine": "Motor",
+      "gearbox": "Gearbox"
+    },
+    "factoryOptions": {
+      "title": "Inkludert fabrikkalternativer"
+    },
+    "status": {
+      "booked": "Booked",
+      "inStock": "In Stock",
+      "arriveIn": "Arriving • in",
+      "arriving": "Arriving"
+    }
+  },
+  "financing": {
+    "privatePerson": "Privat person",
+    "company": "Selskap",
+    "configuration": "Vennligst definer gyldig konfigurasjon",
+    "price": "Pris ",
+    "eurMonth": "eur / måned",
+    "title": "Leiebetaling",
+    "leasingOptions": "Leasingalternativer",
+    "perMonth": "per måned",
+    "months": "months",
+    "titleCalculation": "Innstillinger for beregning av leiebetaling",
+    "deposit": "Innskudd",
+    "period": "Periode",
+    "interest": "Interesse",
+    "downpayment": "Forskuddsbetaling",
+    "residualValue": "Restverdi",
+    "disclaimer": "Dette er en ansvarsfraskrivelse som sier ting om at denne kalkulatoren ikke er kilden til universell sannhet",
+    "offerInfo": "Tilbudet er kun veiledende. Beregningene kan variere avhengig av kjøretøyet som er valgt og kundens forsikringshistorikk."
+  },
+  "buyCarView": {
+    "titles": {
+      "extras": "Ekstrautstyr og tjenester",
+      "delivery": "Delivery",
+      "tradeIn": "Bytte inn",
+      "financing": "Finansiering",
+      "auth": "Logg på eller registrer deg",
+      "contactInfo": "Kjøperinfo",
+      "summary": "Sammendrag",
+      "reservation": "Reservasjon"
+    },
+    "forms": {
+      "registrationNumber": "Bilregistreringsnummer",
+      "suggestedPrice": "Forventet pris"
+    },
+    "delivery": {
+      "optionDealer": "Pick up from the dealer",
+      "optionDelivery": "Delivery to my address",
+      "dealerField": "Dealer",
+      "free": "- Free",
+      "tax": "- From 250€"
+    },
+    "tradeIn": {
+      "no": "har ikke kjøretøy for handel",
+      "yes": "legg til et eksisterende kjøretøy for innbytte"
+    },
+    "reservation": {
+      "description1": "For å reservere bilen kreves et depositum på € {{price}}.",
+      "description2": "Velg et passende betalingsalternativ.",
+      "optionYes": "Betal {{fee}} EUR og bestill denne bilen",
+      "optionNo": "Ikke reserver, be forhandleren kontakte meg"
+    },
+    "success": {
+      "title": "Takk!",
+      "subtitle": "Bestillingen din blir nå behandlet.",
+      "description1": "En behandlet vil du motta e-postbekreftelse med alle detaljer om bestillingen din.",
+      "description2": "Hvis det er flere spørsmål, vil du bli kontaktet.",
+      "description3": "Du kan trygt lukke vinduet."
+    },
+    "totalPrice": "Total kostnad for utkjøp er ",
+    "shippingCost": "Shipping cost",
+    "approx": "Approx",
+    "basePrice": "Basispris",
+    "info": "Tilbudet er kun veiledende. Beregningene kan variere avhengig av kjøretøyet som er valgt og kundens forsikringshistorikk."
+  },
+  "bookTestDriveView": {
+    "title": {
+      "vehicleStep": "Velg et prøvekjøretøy",
+      "timeSlot": "Ledige tidsluker",
+      "contactInfo": "Kontakt",
+      "success": "Prøvekjøring bestilt!"
+    },
+    "carLocation": "Car location"
+  },
+  "auth": {
+    "new": "Jeg er ny kunde",
+    "registered": "Jeg er registrert kunde"
+  },
+  "notifications": {
+    "noMoreCars": "Ingen flere biler å laste",
+    "noCarsToShow": "Ingen biler å vise",
+    "noAvailableSlots": "For denne bilen har ikke tilgjengelige spor",
+    "noAvailableSlotsAtDay": "Doesn't have available slots at this day",
+    "timeNotSelected": "Tid er ikke valgt",
+    "thankYou": "Takk!",
+    "proposalSent": "Forslaget ditt ble sendt.",
+    "carNotFound": "Bilen {{id}} ble ikke funnet",
+    "paidSuccess": "Bilen har blitt betalt",
+    "paidError": "Noe gikk galt under betalingsprosessen",
+    "authLogoutRequired": "Før du registrerer ny bruker må du logge ut!"
+  },
+  "date": "Dato og tid",
+  "year": "År",
+  "yes": "Ja",
+  "no": "Nei",
+  "Next": "Next"
+}

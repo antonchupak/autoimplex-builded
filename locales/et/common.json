@@ -1,0 +1,201 @@
+{
+  "header": {
+    "links": {
+      "cars": "Autod",
+      "offers": "Pakkumised",
+      "partners": "Partnerid",
+      "about": "Umbes"
+    }
+  },
+  "footer": {
+    "aboutUs": "Meist",
+    "privacy": "Privaatsus"
+  },
+  "errors": {
+    "sorry": "Vabandust!",
+    "somethingWrong": "Midagi valesti!",
+    "tryAgain": "Midagi läks valesti, proovige hiljem uuesti",
+    "dateRequired": "Kuupäev ja kellaaeg on nõutavad",
+    "emailExist": "E-post juba kasutatud"
+  },
+  "modals": {
+    "closeTitle": "Sulge",
+    "closeWithoutSaving": "Kas olete kindel, et soovite sulgeda ilma salvestamata?",
+    "askProposal": "Küsi pakkumist"
+  },
+  "titles": {
+    "contact": "Kontaktinfo",
+    "checkout": "Kassaprotsess",
+    "totalPrice": "Koguhind"
+  },
+  "forms": {
+    "company": "Ettevõtte nimi",
+    "companyRegistrationNo": "Ettevõtte registreerimisnumber",
+    "firstName": "Sinu eesnimi",
+    "lastName": "Teie perekonnanimi",
+    "yourEmail": "Sinu email",
+    "yourPhone": "Sinu telefon",
+    "password": "Parool",
+    "passwordRepeat": "Korrake parooli",
+    "message": "Sõnum",
+    "yourSocialIdNumber": "Teie sotsiaal -ID number",
+    "gdpr": "GDPR"
+  },
+  "buttons": {
+    "add": "Lisama",
+    "back": "Tagasi",
+    "cancel": "Tühista",
+    "next": "Edasi",
+    "close": "Sulge",
+    "confirm": "Kinnitage",
+    "change": "Muuda",
+    "backToFilters": "Tagasi filtrite juurde",
+    "showAvailableCars": "Kuva {{total}} saadaolevad autod",
+    "buy": "Osta",
+    "buyNow": "Osta kohe",
+    "book": "Raamat",
+    "bookTestDrive": "Broneeri proovisõit",
+    "offer": "Pakkumine",
+    "askForOffer": "Küsi pakkumist",
+    "reset": "Lähtesta",
+    "vehicleDetails": "Klõpsake sõiduki üksikasjade vaatamiseks",
+    "validateNumber": "Valideeri number",
+    "resetFilters": "Lähtestage filtrid",
+    "finishCheckout": "Finish Checkout",
+    "showTotal": "Kuva {{total}} vastet",
+    "register": "Registreerimine",
+    "login": "Logi sisse",
+    "logout": "Logi välja",
+    "exitButton": {
+      "exit": "Kassast",
+      "checkout": "väljumine"
+    }
+  },
+  "filters": {
+    "filter": "Filtreeri",
+    "matches": "tikud",
+    "seeAll": "Vaata kõiki",
+    "seeMatches": "Vaata vasteid",
+    "resetFilters": "Lähtesta filtrid",
+    "pleaseAdd": "Palun lisage filter",
+    "type": {
+      "sortBy": "Sorteerima",
+      "condition": "Seisukord",
+      "make": "Tootja",
+      "model": "Mudel",
+      "bodyType": "Kehatüüp",
+      "mileage": "Läbisõit",
+      "gearbox": {
+        "title": "Käigukast",
+        "manual": "Käsiraamat",
+        "automatic": "Automaatne"
+      },
+      "fuelType": "Kütuse tüüp",
+      "priceLimit": "Hinnapiirang",
+      "equipments": "Varustus"
+    },
+    "sorting": {
+      "asc(make)": "Tootja (A-Z)",
+      "desc(make)": "Tootja (Z-A)",
+      "asc(price)": "Hind (madal kuni kõrge)",
+      "desc(price)": "Hind (kõrge kuni madal)"
+    }
+  },
+  "indexPage": {
+    "title": "Leidke oma auto. Lihtsalt.",
+    "subTitle": "{{new}} uhiuut või {{demo}} demomudelit on kohe saadaval laost, mida müüvad sertifitseeritud edasimüüjad",
+    "search": {
+      "byMake": "Otsi margi järgi",
+      "byBodyType": "Otsige kehatüübi järgi",
+      "byPrice": "Otsi hinna järgi"
+    }
+  },
+  "carPage": {
+    "specifications": {
+      "mileage": "Läbisõit",
+      "year": "Aasta",
+      "engine": "Mootor",
+      "gearbox": "Käigukast"
+    },
+    "factoryOptions": {
+      "title": "Kaasas tehase valikud"
+    }
+  },
+  "financing": {
+    "privatePerson": "Eraisik",
+    "company": "Ettevõte",
+    "configuration": "Palun määrake kehtiv konfiguratsioon",
+    "price": "Hind ",
+    "eurMonth": "eur/kuu",
+    "title": "Liisingumakse",
+    "leasingOptions": "Liisinguvõimalused",
+    "perMonth": "kuus",
+    "months": "kuud",
+    "titleCalculation": "Liisingumakse arvutamise seaded",
+    "deposit": "Tagatisraha",
+    "period": "Periood",
+    "interest": "Huvi",
+    "downpayment": "Ettemaks",
+    "residualValue": "Jääkväärtus",
+    "disclaimer": "See on lahtiütlus, mis ütleb asju selle kohta, et see kalkulaator ei ole universaalse tõe allikas.",
+    "offerInfo": "Pakkumine on ainult soovituslik. Arvutused võivad erineda sõltuvalt valitud sõidukist ja kliendi kindlustusajaloost."
+  },
+  "buyCarView": {
+    "titles": {
+      "extras": "Lisad ja teenused",
+      "tradeIn": "Kaubelda",
+      "financing": "Rahastamine",
+      "auth": "Logi sisse või registreeru",
+      "contactInfo": "Ostja info",
+      "summary": "Kokkuvõte",
+      "reservation": "Reservatsioon"
+    },
+    "forms": {
+      "registrationNumber": "Teie auto registreerimisnumber",
+      "suggestedPrice": "Eeldatav hind"
+    },
+    "tradeIn": {
+      "no": "ei oma sõidukit kaubanduseks,",
+      "yes": "lisage vahetamiseks olemasolev sõiduk"
+    },
+    "reservation": {
+      "description1": "Auto broneerimiseks on vaja tagatisraha € {{price}}.",
+      "description2": "Palun valige sobiv makseviis.",
+      "optionYes": "Makske {{fee}} eurot ja broneerige see auto",
+      "optionNo": "Ärge broneerige, paluge edasimüüjal minuga ühendust võtta"
+    },
+    "success": {
+      "title": "Aitäh!",
+      "subtitle": "Teie tellimust töödeldakse praegu.",
+      "description1": "Kui üks töödeldud, saate e-posti teel kinnituse koos kogu teie tellimuse üksikasjaga.",
+      "description2": "Lisaküsimuste korral võetakse teiega ühendust.",
+      "description3": "Võite akna turvaliselt sulgeda."
+    },
+    "totalPrice": "Väljaostmise kogukulu on",
+    "approx": "Umbes",
+    "basePrice": "Baashind",
+    "info": "Pakkumine on ainult soovituslik. Arvutused võivad erineda sõltuvalt valitud sõidukist ja kliendi kindlustusajaloost."
+  },
+  "bookTestDriveView": {
+    "dateTime": "Vabad ajakohad",
+    "testDriveBooked": "Proovisõit broneeritud!"
+  },
+  "auth": {
+    "new": "Olen uus klient",
+    "registered": "Olen registreeritud klient"
+  },
+  "notifications": {
+    "noMoreCars": "Enam pole autosid laadida",
+    "noCarsToShow": "Pole autosid, mida näidata",
+    "thankYou": "Aitäh!",
+    "proposalSent": "Teie ettepanek saadeti.",
+    "carNotFound": "Autot {{id}} ei leitud",
+    "paidSuccess": "Auto eest on edukalt tasutud",
+    "paidError": "Midagi läks makseprotsessi ajal valesti",
+    "authLogoutRequired": "Enne uue kasutaja registreerimist peate välja logima!"
+  },
+  "dateTime": "Kuupäev ja kellaaeg",
+  "year": "Aasta",
+  "yes": "Jah",
+  "no": "Ei"
+}
